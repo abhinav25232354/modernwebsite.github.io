@@ -1,0 +1,141 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* header */
+#navbar{
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    
+}
+header ul li{
+    margin-left: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(0, 158, 250);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 34px;
+    color: black;
+    transition: .5s;
+}
+.logo{
+    margin-left: 21px;
+    padding-right: 20px;
+    color: rgb(0, 158, 250);
+}
+
+/* hero */
+#hero{
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: white;
+    color: black;
+    opacity: .89;
+    display: flex;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%); */
+}
+#hero img{
+    margin-right: 150px;
+    margin-left: -10px;
+    image-rendering: optimizeSpeed;
+    /* height: 353px; */
+}
+#hero h1{
+    font-size: 4vw;
+    margin-bottom: 10px;
+    color: rgb(0, 158, 250);
+}
+#hero p{
+    font-size: 2vw;
+}
+#herobtn1{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 158, 250);
+    /* opacity: 5; */
+    margin-top: 10px;
+    color: white;
+    border: 2px solid rgb(0, 158, 250);
+    box-shadow: 1px 1px 0px rgb(0, 158, 250);
+    margin-top: 20px;
+}
+#herobtn2{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 158, 250);
+    /* opacity: 5; */
+    margin-top: 10px;
+    color: white;
+    border: 2px solid rgb(0, 158, 250);
+    box-shadow: 1px 1px 10px rgb(0, 158, 250);
+    margin-top: 20px;
+}
+#herobtn1:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 34px;
+    color: black;
+    transition: .5s;
+}
+#herobtn2:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 34px;
+    color: black;
+    transition: .5s;
+}
+
+/* blog */
+.blog{
+}
+#middlebox{
+    background-color: firebrick;
+    opacity: 1;
+}
+.blog .container{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 50px;
+}
+.blog .container .box{
+    border: 2px solid black;
+    height: 300px;
+    width: auto;
+    margin: 15px;
+    box-shadow: 10px 10px 10px black;
+    background-color: black;
+    opacity: .89;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
